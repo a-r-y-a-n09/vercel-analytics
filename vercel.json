@@ -1,8 +1,9 @@
 {
-  "buildCommand": "pip install -r requirements.txt",
   "functions": {
-    "api/analytics.py": {
-      "runtime": "python3.11"
+    "api/index.py": {
+      "runtime": "python3.9",
+      "memory": 3008,
+      "maxDuration": 60
     }
   }
 }
